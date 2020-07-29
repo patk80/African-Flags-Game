@@ -35,8 +35,10 @@ function checkAnswer() {
     
     if(userAnswer === flagsArray[randomNumber].name) {
         console.log("Correct");
+        $("body").css("background", "green");
     } else {
         console.log("WRONG");
+        $("body").css("background", "red");
     }
     $("input").val("");
 }
