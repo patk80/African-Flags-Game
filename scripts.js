@@ -44,8 +44,11 @@ function checkAnswer() {
 }
 
 // generate new random flag //
-$("#random-flag").on("click", function(){
+$("#start-button").on("click", function(){
     randomFlag();
+    $("#start-button").css("visibility", "hidden");
+    $("#input-for-answers").css("visibility", "visible");
+    $("#submit-button").css("visibility", "visible");
 });
 // check user's answer on submit button click //
 $("#submit-button").on("click", function(){

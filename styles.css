@@ -8,3 +8,11 @@ img {
     height: 100px;
     width: 180px;
 }
+
+#input-for-answers {
+    visibility: hidden;
+}
+
+#submit-button {
+    visibility: hidden;
+}
