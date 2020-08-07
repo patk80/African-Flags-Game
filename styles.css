@@ -4,16 +4,16 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(200, 255, 237);
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 90vh;
-}
-
-#input-for-answers {
-    margin: 2% 0;
 }
 
 img {
@@ -24,6 +24,8 @@ img {
 
 #input-for-answers {
     visibility: hidden;
+    margin: 2% 0;
+    text-align: center;
 }
 
 #submit-button {
