@@ -246,7 +246,7 @@ function checkAnswer() {
 // generate new random flag //
 $("#start-button").on("click", function(){
     randomFlag();
-    $("#start-button").css("visibility", "hidden");
+    $("#start-button").css("display", "none");
     $("#input-for-answers").css("visibility", "visible");
     $("#submit-button").css("visibility", "visible");
 });

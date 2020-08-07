@@ -27,6 +27,10 @@ img {
     margin: 1% 0;
 }
 
+#start-button {
+    margin: 2% 0;
+}
+
 #input-for-answers {
     visibility: hidden;
     margin: 2% 0;
