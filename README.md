@@ -1,2 +1,2 @@
-# Flags-of-the-World-Game
-Flags of the World Game. Created with the intention to use/learn jQuery.
+# African-Flags-Game
+African Flags Game. Created with the intention to use/learn jQuery.
