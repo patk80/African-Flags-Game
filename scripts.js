@@ -178,6 +178,42 @@ var flagsArray = [
     {
         name: "somalia",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/150px-Flag_of_Somalia.svg.png"
+    },
+    {
+        name: "south africa",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/150px-Flag_of_South_Africa.svg.png"
+    },
+    {
+        name: "south sudan",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/150px-Flag_of_South_Sudan.svg.png"
+    },
+    {
+        name: "sudan",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/150px-Flag_of_Sudan.svg.png"
+    },
+    {
+        name: "tanzania",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/150px-Flag_of_Tanzania.svg.png"
+    },
+    {
+        name: "togo",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/150px-Flag_of_Togo.svg.png"
+    },
+    {
+        name: "tunisia",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/150px-Flag_of_Tunisia.svg.png"
+    },
+    {
+        name: "uganda",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/150px-Flag_of_Uganda.svg.png"
+    },
+    {
+        name: "zambia",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/150px-Flag_of_Zambia.svg.png"
+    },
+    {
+        name: "zimbabwe",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/150px-Flag_of_Zimbabwe.svg.png"
     }
 ];
 
@@ -201,7 +237,7 @@ function checkAnswer() {
         console.log("Correct");
         $("body").css("background", "green");
     } else {
-        console.log("WRONG");
+        console.log("WRONG that was " + flagsArray[randomNumber].name);
         $("body").css("background", "red");
     }
     $("input").val("");
