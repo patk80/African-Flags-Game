@@ -16,6 +16,11 @@ body {
     height: 90vh;
 }
 
+h1 {
+    font-family: Arial;
+    text-align: center;
+}
+
 img {
     height: auto;
     width: 60%;
@@ -25,9 +30,19 @@ img {
 #input-for-answers {
     visibility: hidden;
     margin: 2% 0;
+    padding: 1.5% 0;
     text-align: center;
 }
 
 #submit-button {
     visibility: hidden;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 1.75rem;
+    cursor: pointer;
+    color: white;
+    background-color: black;
 }
