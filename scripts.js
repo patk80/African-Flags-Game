@@ -48,10 +48,6 @@ var flagsArray = [
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/150px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"
     },
     {
-        name: "republic of the congo",
-        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/150px-Flag_of_the_Republic_of_the_Congo.svg.png"
-    },
-    {
         name: "djibouti",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/150px-Flag_of_Djibouti.svg.png"
     },
@@ -156,6 +152,10 @@ var flagsArray = [
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/150px-Flag_of_Nigeria.svg.png"
     },
     {
+        name: "republic of the congo",
+        url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/150px-Flag_of_the_Republic_of_the_Congo.svg.png"
+    },
+    {
         name: "rwanda",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/150px-Flag_of_Rwanda.svg.png"
     },
@@ -237,7 +237,7 @@ function checkAnswer() {
         console.log("Correct");
         $("body").css("background", "green");
     } else {
-        console.log("WRONG that was " + flagsArray[randomNumber].name);
+        alert("WRONG - that was " + flagsArray[randomNumber].name);
         $("body").css("background", "red");
     }
     $("input").val("");
