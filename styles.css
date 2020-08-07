@@ -4,9 +4,22 @@
     padding: 0;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#input-for-answers {
+    margin: 2% 0;
+}
+
 img {
-    height: 100px;
-    width: 180px;
+    height: auto;
+    width: 60%;
+    margin: 1% 0;
 }
 
 #input-for-answers {
