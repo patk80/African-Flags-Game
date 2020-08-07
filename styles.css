@@ -23,7 +23,7 @@ h1 {
 
 img {
     height: auto;
-    width: 60%;
+    width: 40%;
     margin: 1% 0;
 }
 
@@ -36,6 +36,7 @@ img {
     margin: 2% 0;
     padding: 1.5% 0;
     text-align: center;
+    width: 20%;
 }
 
 #submit-button {
