@@ -23,8 +23,8 @@ h1 {
 }
 
 img {
-    height: auto;
-    width: 40%;
+    height: 30%;
+    width: auto;
     margin: 1% 0;
 }
 
@@ -49,6 +49,11 @@ button {
     border: none;
     border-radius: 1.75rem;
     cursor: pointer;
-    color: white;
-    background-color: black;
+    color: #fff;
+    background-color: #000;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #696969;
 }
