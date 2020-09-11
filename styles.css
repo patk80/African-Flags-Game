@@ -34,10 +34,10 @@ img {
 
 #input-for-answers {
     visibility: hidden;
-    margin: 2% 0;
-    padding: 1.5% 0;
+    margin: 1% 0;
+    padding: 5px 0;
     text-align: center;
-    width: 20%;
+    width: 200px;
 }
 
 #submit-button {
