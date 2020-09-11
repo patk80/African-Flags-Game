@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #ffd8b3 ;
+    background-color: #ffd8b3;
+    font-family: "Georgia";
 }
 
 .main-container {
@@ -17,7 +18,6 @@ body {
 }
 
 h1 {
-    font-family: Arial;
     text-align: center;
     margin-top: 1.875rem;
 }
@@ -34,6 +34,7 @@ img {
 
 #input-for-answers {
     visibility: hidden;
+    font-family: "Georgia";
     margin: 1% 0;
     padding: 5px 0;
     text-align: center;
@@ -45,6 +46,7 @@ img {
 }
 
 button {
+    font-family: "Georgia";
     padding: 0.75rem;
     border: none;
     border-radius: 1.75rem;
