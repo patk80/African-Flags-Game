@@ -18,8 +18,9 @@ body {
 }
 
 h1 {
+    font-size: 3rem;
     text-align: center;
-    margin-top: 1.875rem;
+    margin-top: 2rem;
 }
 
 img {
