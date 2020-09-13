@@ -13,10 +13,10 @@ function checkAnswer() {
     var userAnswer = $("input").val().toLowerCase();
     
     if(userAnswer === flagsArray[randomNumber].name) {
-        $("body").css("background", "green");
+        $("body").css("background", "lightgreen");
     } else {
         alert("WRONG - that was " + flagsArray[randomNumber].name);
-        $("body").css("background", "red");
+        $("body").css("background", "firebrick");
     }
     $("input").val("");
 }
