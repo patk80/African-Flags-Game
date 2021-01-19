@@ -5,7 +5,6 @@ function randomIndex() {
 
 function randomFlag(){
     randomIndex();
-    console.log(randomNumber);
     $("img").attr("src", flagsArray[randomNumber].imagePath);
 }
 
