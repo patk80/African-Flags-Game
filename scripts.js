@@ -20,7 +20,7 @@ $("#start-button").on("click", function(){
 
 // function to evaluate the user's input //
 function checkAnswer() {
-    var userAnswer = $("input").val().toLowerCase();
+    let userAnswer = $("input").val().toLowerCase();
     
     if(userAnswer === flagsArray[randomNumber].name) {
         $("body").removeClass("wrong");
