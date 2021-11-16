@@ -36,7 +36,7 @@ $("#submit-button").on("click", function(){
 });
 // check user's answer on enter button press //
 $("input").on('keypress',function(e) {
-    if(e.which == 13) {
+    if(e.code === "Enter") {
         checkAnswer();
         randomFlag();
     }
